@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		312367FA154C7ABC0027FA38 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312367F9154C7ABC0027FA38 /* UIKit.framework */; };
+		312367FC154C7ABC0027FA38 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312367FB154C7ABC0027FA38 /* Foundation.framework */; };
+		312367FE154C7ABC0027FA38 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312367FD154C7ABC0027FA38 /* CoreGraphics.framework */; };
+		31236804154C7ABC0027FA38 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 31236802154C7ABC0027FA38 /* InfoPlist.strings */; };
+		31236806154C7ABC0027FA38 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 31236805154C7ABC0027FA38 /* main.m */; };
+		3123680A154C7ABC0027FA38 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 31236809154C7ABC0027FA38 /* AppDelegate.m */; };
+		3123680D154C7ABC0027FA38 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3123680B154C7ABC0027FA38 /* MainStoryboard.storyboard */; };
+		31236810154C7ABC0027FA38 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3123680F154C7ABC0027FA38 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		312367F5154C7ABC0027FA38 /* BankMate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BankMate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		312367F9154C7ABC0027FA38 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		312367FB154C7ABC0027FA38 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		312367FD154C7ABC0027FA38 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		31236801154C7ABC0027FA38 /* BankMate-Info.plist */ = {isa = PBXFileReference; path = "BankMate-Info.plist"; sourceTree = "<group>"; };
+		31236803154C7ABC0027FA38 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		31236805154C7ABC0027FA38 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		31236807154C7ABC0027FA38 /* BankMate-Prefix.pch */ = {isa = PBXFileReference; path = "BankMate-Prefix.pch"; sourceTree = "<group>"; };
+		31236808154C7ABC0027FA38 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		31236809154C7ABC0027FA38 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3123680C154C7ABC0027FA38 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		3123680E154C7ABC0027FA38 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		3123680F154C7ABC0027FA38 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		312367F2154C7ABC0027FA38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				312367FA154C7ABC0027FA38 /* UIKit.framework in Frameworks */,
+				312367FC154C7ABC0027FA38 /* Foundation.framework in Frameworks */,
+				312367FE154C7ABC0027FA38 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		312367EA154C7ABC0027FA38 = {
+			isa = PBXGroup;
+			children = (
+				312367FF154C7ABC0027FA38 /* BankMate */,
+				312367F8154C7ABC0027FA38 /* Frameworks */,
+				312367F6154C7ABC0027FA38 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		312367F6154C7ABC0027FA38 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				312367F5154C7ABC0027FA38 /* BankMate.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		312367F8154C7ABC0027FA38 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				312367F9154C7ABC0027FA38 /* UIKit.framework */,
+				312367FB154C7ABC0027FA38 /* Foundation.framework */,
+				312367FD154C7ABC0027FA38 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		312367FF154C7ABC0027FA38 /* BankMate */ = {
+			isa = PBXGroup;
+			children = (
+				31236808154C7ABC0027FA38 /* AppDelegate.h */,
+				31236809154C7ABC0027FA38 /* AppDelegate.m */,
+				3123680B154C7ABC0027FA38 /* MainStoryboard.storyboard */,
+				3123680E154C7ABC0027FA38 /* ViewController.h */,
+				3123680F154C7ABC0027FA38 /* ViewController.m */,
+				31236800154C7ABC0027FA38 /* Supporting Files */,
+			);
+			path = BankMate;
+			sourceTree = "<group>";
+		};
+		31236800154C7ABC0027FA38 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				31236801154C7ABC0027FA38 /* BankMate-Info.plist */,
+				31236802154C7ABC0027FA38 /* InfoPlist.strings */,
+				31236805154C7ABC0027FA38 /* main.m */,
+				31236807154C7ABC0027FA38 /* BankMate-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		312367F4154C7ABC0027FA38 /* BankMate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31236813154C7ABC0027FA38 /* Build configuration list for PBXNativeTarget "BankMate" */;
+			buildPhases = (
+				312367F1154C7ABC0027FA38 /* Sources */,
+				312367F2154C7ABC0027FA38 /* Frameworks */,
+				312367F3154C7ABC0027FA38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BankMate;
+			productName = BankMate;
+			productReference = 312367F5154C7ABC0027FA38 /* BankMate.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		312367EC154C7ABC0027FA38 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 312367EF154C7ABC0027FA38 /* Build configuration list for PBXProject "BankMate" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 312367EA154C7ABC0027FA38;
+			productRefGroup = 312367F6154C7ABC0027FA38 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				312367F4154C7ABC0027FA38 /* BankMate */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		312367F3154C7ABC0027FA38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31236804154C7ABC0027FA38 /* InfoPlist.strings in Resources */,
+				3123680D154C7ABC0027FA38 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		312367F1154C7ABC0027FA38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31236806154C7ABC0027FA38 /* main.m in Sources */,
+				3123680A154C7ABC0027FA38 /* AppDelegate.m in Sources */,
+				31236810154C7ABC0027FA38 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		31236802154C7ABC0027FA38 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31236803154C7ABC0027FA38 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3123680B154C7ABC0027FA38 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3123680C154C7ABC0027FA38 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		31236811154C7ABC0027FA38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		31236812154C7ABC0027FA38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		31236814154C7ABC0027FA38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BankMate/BankMate-Prefix.pch";
+				INFOPLIST_FILE = "BankMate/BankMate-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		31236815154C7ABC0027FA38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BankMate/BankMate-Prefix.pch";
+				INFOPLIST_FILE = "BankMate/BankMate-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		312367EF154C7ABC0027FA38 /* Build configuration list for PBXProject "BankMate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31236811154C7ABC0027FA38 /* Debug */,
+				31236812154C7ABC0027FA38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31236813154C7ABC0027FA38 /* Build configuration list for PBXNativeTarget "BankMate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31236814154C7ABC0027FA38 /* Debug */,
+				31236815154C7ABC0027FA38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 312367EC154C7ABC0027FA38 /* Project object */;
+}
